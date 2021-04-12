@@ -40,7 +40,7 @@ h4 {
   text-transform: uppercase;
 }
 
-.inc-exp-container {
+.inc-xp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
   padding: 20px;
@@ -49,26 +49,26 @@ h4 {
   margin: 20px 0;
 }
 
-.inc-exp-container > div {
+.inc-xp-container > div {
   flex: 1;
   text-align: center;
 }
 
-.inc-exp-container > div:first-of-type {
+.inc-xp-container > div:first-of-type {
   border-right: 1px solid #dedede;
 }
 
-.money {
+.xp {
   font-size: 20px;
   letter-spacing: 1px;
   margin: 5px 0;
 }
 
-.money.plus {
+.xp.plus {
   color: #2ecc71;
 }
 
-.money.minus {
+.xp.minus {
   color: #c0392b;
 }
 
