@@ -13,7 +13,7 @@ export const AddTask = () => {
     const newTask = {
       id: Math.floor(Math.random() * 100000000), //Look for better alternative > uuid?
       text,
-      amount: 10 //+amount
+      amount: 20 //+amount
     }
     
     addTask(newTask)

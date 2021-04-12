@@ -12,10 +12,10 @@ export const IncomeXp = () => {
     .reduce((acc, item) => (acc += item), 0)
     
 
-  const expense = (
-    amounts.filter(item => item < 0).reduce((acc, item) => (acc += item), 0) *
-    -1
-  )
+  // const expense = (
+  //   amounts.filter(item => item < 0).reduce((acc, item) => (acc += item), 0) *
+  //   -1
+  // )
 
   return (
     <div className="inc-xp-container">
@@ -23,10 +23,10 @@ export const IncomeXp = () => {
       <h4> XP Behaald</h4>
       <p className="xp plus"> {income}</p>
     </div> 
-    <div>
+    {/* <div>
       <h4> XP Betaald</h4>
       <p className="xp minus"> {expense}</p>
-    </div>
+    </div> */}
 </div>
 
   )
