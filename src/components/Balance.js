@@ -5,7 +5,6 @@ export const Balance = () => {
   const { tasks } = useContext(GlobalContext)
 
   const amounts = tasks.map(task => task.amount)
-  console.log(amounts)
   const total = amounts.reduce((acc, item) => (acc += item), 0)
 
 

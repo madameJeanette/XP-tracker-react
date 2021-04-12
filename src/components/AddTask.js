@@ -13,7 +13,7 @@ export const AddTask = () => {
     const newTask = {
       id: Math.floor(Math.random() * 100000000), //Look for better alternative > uuid?
       text,
-      amount: +amount
+      amount: 10 //+amount
     }
     
     addTask(newTask)
@@ -27,10 +27,8 @@ export const AddTask = () => {
           <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..."/>
         </div>
         <div className="form-control">
-          <label htmlFor="amount"
-            >Aantal XP punten</label
-          >
-          <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
+          {/* <label htmlFor="amount"> + 10 XP punten</label> */}
+         {/* <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} />  */}
         </div>
         <button className="btn">Voeg taak toe</button>
       </form>
